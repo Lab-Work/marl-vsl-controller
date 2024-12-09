@@ -14,7 +14,7 @@ conda activate marlvsl
 ```
 
 ## Data Structure
-dataset/dataset.pkl contains the traffic data recorded by *radar detection system* (RDS) units along with the recorded control outputs from the deployed MARL-based VSL algorithm during the peak hour (5AM-10AM) of Monday, April 22, 2024. The dataset contains the following columns: 
+dataset/dataset.pkl contains the traffic data recorded by *radar detection system* (RDS) units along with the recorded control outputs from the deployed MARL-based VSL algorithm during the peak hour (5AM-10AM) of Monday, April 22, 2024, on Interstate 24 westbound. The dataset contains the following columns: 
 * **time_index**: An integer indicator to represent the time since 5AM. Each unit represents 30 seconds. For example, an integer of 10 represents 5:05AM.
 * **mm**: Mile marker of the physical asset, i.e., the VSL controller.
 * **down_spd**: One of the input states to the MARL-based policy, i.e., the raw downstream traffic speed.
